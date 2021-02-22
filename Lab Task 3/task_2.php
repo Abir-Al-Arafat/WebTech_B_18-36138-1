@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task 2</title>
 </head>
 <body>
     <?php
@@ -34,13 +34,13 @@
     }
     ?>
     <form method = "post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    <h2>task 2</h2>
+    <h2>Task 2</h2>
     <fieldset>
     <legend>CHANGE PASSWORD</legend>
     Current Password: <input type = "password" name = "pass" id = "pass"><br><br>
     New Password: <input type = "password" name = "passN" id = "passN"><br><br>
     Retype New Password: <input type = "password" name = "passRN" id = "passRN"><br><br>
-    <input type = "submit"><br><br>
+    <input type = "submit" value = "Submit"><br><br>
     <?php
     echo $pass;
     echo $passCH;

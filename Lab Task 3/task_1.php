@@ -6,6 +6,7 @@
     <style>
     .error {color: #FF0000;}
     </style>
+    <title>Task 1</title>
 </head>
 <body>
 
