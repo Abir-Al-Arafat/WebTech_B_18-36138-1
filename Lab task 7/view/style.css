@@ -48,6 +48,7 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+/*change the link color when clicked*/
 li a.active {
   background-color: #4caf50;
   color: white;
@@ -64,12 +65,13 @@ a.navtop {
   padding: 8px;
   background-color: #0f040583;
 }
+/*setting color for horizontal navigation bar*/
 .topnav {
   max-width: 1500px;
   height: 45px;
   background-color: rgb(72, 208, 226);
 }
-
+/*adding buttons in link*/
 a.button:link,
 a.button:visited {
   background-color: #7270e7;
@@ -79,7 +81,7 @@ a.button:visited {
   text-decoration: none;
   display: inline-block;
 }
-
+/*change the button color when clicked or hovered*/
 a.button:hover,
 a.button:active {
   background-color: rgba(4, 0, 241, 0.397);
