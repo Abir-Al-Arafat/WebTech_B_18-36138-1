@@ -13,11 +13,11 @@
 </head>
 <body>
     <?php include('./header.php'); ?>
-    <fieldset>
+    <fieldset class="topnav">
     <br>
         <nav>
 Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
-            <a href="../controller/logout.php">Log Out</a>
+            <a href="../controller/logout.php" align="right">Log Out</a>
         </nav>
     <br>
     </fieldset>

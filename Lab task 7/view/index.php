@@ -10,14 +10,14 @@
 <body>
     <?php include('./header.php'); ?>
 
-    <fieldset>
+    <fieldset class="topnav">
     <table align="right">
     <tr>
         <td>
             <nav>
-                <a href="./index.php" >Home</a> ||
-                <a href="./login.php" >Log in</a> ||
-                <a href="./registration.php" >Registration</a>
+                <a href="./index.php" class="button">Home</a> ||
+                <a href="./login.php" class="button">Log in</a> ||
+                <a href="./registration.php" class="button">Registration</a>
             </nav>
         </td>
     </tr>        

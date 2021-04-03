@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php include('./header.php'); ?>
-    <fieldset>
+    <fieldset class="topnav">
     <br>
         <nav class="navtop">
             Logged in as <a href="./profile.php" class="point"><?php echo $_SESSION['name']; ?></a> ||

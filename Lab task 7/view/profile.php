@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php include('./header.php'); ?>
-    <fieldset>
+    <fieldset class="topnav">
     <br>
         <nav>
             Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
