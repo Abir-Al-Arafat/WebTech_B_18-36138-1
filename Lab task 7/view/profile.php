@@ -21,57 +21,57 @@
         </nav>
         <br>
     </fieldset>
-    <table border="1px solid black" width='100%'>
+    <table class="border" width='100%'>
         <tr>
-            <td border="1px solid black">
+            <td class="border">
                 <label>Menu</label>
                 <br>
                 <hr>
                 <ul>
-                    <li><a href='./dashboard.php'>Dashboard</a></li>
-                    <li><a href='./profile.php'>View Profile</a></li>
-                    <li><a href='./editprofile.php'>Edit Profile</a></li>
-                    <li><a href='./changepropic.php'>Change Profile Picture</a></li>
-                    <li><a href='./changepass.php'>Change Password</a></li>
-                    <li><a href='../controller/logout.php'>Logout</a></li>
+                    <li><a href='./dashboard.php' >Dashboard</a></li>
+                    <li><a href='./profile.php'class="active">View Profile</a></li>
+                    <li><a href='./editprofile.php' >Edit Profile</a></li>
+                    <li><a href='./changepropic.php' >Change Profile Picture</a></li>
+                    <li><a href='./changepass.php' >Change Password</a></li>
+                    <li><a href='../controller/logout.php' >Logout</a></li>
                 </ul>
             </td>
             <td>
-                <table align="center" border="1px solid black">
+                <table align="center" class="border" width="100%">
                     <tr>
                         <td rowspan="6" align="right">
                             <img src= '<?php echo "../images/".$_SESSION['username'].".jpeg"; ?>' height="250">
                         </td>
                     </tr>
-                    <tr>
-                        <td align="center" width='47%'>
+                    <tr class="rowcolor">
+                        <td class="profile">
                             <b>Name:</b>
                         </td>
-                        <td align="center" width='47%'>
+                        <td class="profile">
                             <?php echo $_SESSION['name']; ?>
                         </td>
                     </tr>
-                    <tr>
-                        <td align="center" width='47%'>
+                    <tr class="rowcolor">
+                        <td class="profile">
                             <b>Email:</b>
                         </td>
-                        <td align="center" width='47%'>
+                        <td class="profile">
                             <?php echo $_SESSION['email']; ?>
                         </td>
                     </tr>
-                    <tr>
-                        <td align="center" width='47%'>
+                    <tr class="rowcolor">
+                        <td class="profile">
                             <b>Gender:</b>
                         </td>
-                        <td align="center" width='47%'>
+                        <td class="profile">
                             <?php echo $_SESSION['gender']; ?>
                         </td>
                     </tr>
-                    <tr>
-                        <td align="center" width='47%'>
+                    <tr class="rowcolor">
+                        <td class="profile">
                             <b>Date of Birth:</b>
                         </td>
-                        <td align="center" width='47%'>
+                        <td class="profile">
                             <?php echo $_SESSION['dob']; ?>
                         </td>
                     </tr>

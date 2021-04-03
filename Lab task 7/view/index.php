@@ -15,9 +15,9 @@
     <tr>
         <td>
             <nav>
-                <a href="./index.php">Home</a> ||
-                <a href="./login.php">Log in</a> ||
-                <a href="./registration.php">Registration</a>
+                <a href="./index.php" >Home</a> ||
+                <a href="./login.php" >Log in</a> ||
+                <a href="./registration.php" >Registration</a>
             </nav>
         </td>
     </tr>        

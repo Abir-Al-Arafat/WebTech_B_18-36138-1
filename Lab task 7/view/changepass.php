@@ -7,7 +7,7 @@
     <link rel='stylesheet' type="text/css" media="screen" href='style.css'/>
     <title>Change Password</title>
 </head>
-<body background="../images/assets/background.jpg">
+<body>
     <?php include('./header.php'); ?>
     <div width='100px'>
         <form action='../controller/changepasschk.php' method="POST">

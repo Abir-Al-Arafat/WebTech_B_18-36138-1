@@ -12,22 +12,22 @@
     <?php include('./header.php'); ?>
     <fieldset>
     <br>
-        <nav>
-            Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
-            <a href="../controller/logout.php">Log Out</a>
+        <nav class="navtop">
+            Logged in as <a href="./profile.php" class="point"><?php echo $_SESSION['name']; ?></a> ||
+            <a href="../controller/logout.php" class="point">Log Out</a>
         </nav>
         <br>
     </fieldset>
 
-    <table border="1px solid black" width='100%'>
+    <table class="border" width='100%'>
         <tr>
-            <td border="1px solid black">
+            <td class="border">
                 <label>Account</label>
                 <br>
                 <hr>
                 <ul>
-                    <li><a href='./dashboard.php'>Dashboard</a></li>
-                    <li><a href='./profile.php'>View Profile</a></li>
+                    <li><a href='./dashboard.php' class="active">Dashboard</a></li>
+                    <li><a href='./profile.php' >View Profile</a></li>
                     <li><a href='./editprofile.php'>Edit Profile</a></li>
                     <li><a href='./changepropic.php'>Change Profile Picture</a></li>
                     <li><a href='./changepass.php'>Change Password</a></li>
@@ -35,7 +35,7 @@
                 </ul>
             </td>
             <td width='70%'>
-                <table align="right" border="1px solid black">
+                <table align="right" class="border">
                 <b> Welcome <?php echo $_SESSION['name']; ?> </b>
                     <br><br><br>
 

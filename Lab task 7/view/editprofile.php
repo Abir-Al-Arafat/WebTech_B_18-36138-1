@@ -30,7 +30,7 @@ Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
                 <ul>
                     <li><a href='./dashboard.php'>Dashboard</a></li>
                     <li><a href='./profile.php'>View Profile</a></li>
-                    <li><a href='./editprofile.php'>Edit Profile</a></li>
+                    <li><a href='./editprofile.php' class="active">Edit Profile</a></li>
                     <li><a href='./changepropic.php'>Change Profile Picture</a></li>
                     <li><a href='./changepass.php'>Change Password</a></li>
                     <li><a href='../controller/logout.php'>Logout</a></li>
@@ -38,16 +38,17 @@ Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
             </td>
             <td>
                 <form action='../controller/update.php' method="POST">
-                    <table align="center" border="1px solid black" width='60%'>
-                        <tr>
+                    <table align="center" border="1px solid black" width='40%'>
+                        <tr class="rowcolor">
                             <td width='40%' align="right">
                                 Name:
                             </td>
-                            <td>
+                            <td >
                                 <input type='text' name = 'name' value="<?php echo $_SESSION['name']; ?>" required/>
                             </td>
                         </tr>
-                        <tr>
+
+                        <tr class="rowcolor">
                             <td align="right">
                                 Email:
                             </td>
@@ -56,7 +57,7 @@ Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
                             </td>
                         </tr>
 
-                        <tr>
+                        <tr class="rowcolor">
                             <td align="right">
                                 Gender:
                             </td>
@@ -65,7 +66,7 @@ Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
                             </td>
                         </tr>
 
-                        <tr>
+                        <tr class="rowcolor">
                             <td align="right">
                                 Date of birth:
                             </td>
@@ -73,7 +74,7 @@ Logged in as <a href="./profile.php"><?php echo $_SESSION['name']; ?></a> ||
                                 <input type='date' name = 'dob' value="<?php echo $_SESSION['dob']; ?>" required/>
                             </td>
                         </tr>
-                        <tr>
+                        <tr >
                             <td colspan="2">
                                 <center>
                                     <input type='submit' value="Submit">
